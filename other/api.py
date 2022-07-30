@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+import requests
 
 """
 @author: Lambert
 @file: api.py
 @time: 2022/7/30 12:58
 """
-import requests
 
 
 def professional_degree_category():

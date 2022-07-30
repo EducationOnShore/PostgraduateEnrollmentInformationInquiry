@@ -1,4 +1,6 @@
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
+
 from scrapy.statscollectors import MemoryStatsCollector
 import logging
 import pprint
