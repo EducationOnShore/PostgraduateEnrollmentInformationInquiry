@@ -1,5 +1,8 @@
-# yzw
+# PostgraduateEnrollmentInformationInquiry
+### 研究生招生信息网信息查询
 scrapy爬取研招网研究生考试专业信息
+
+当前项目为fok地址: https://github.com/Hthing/yzw
 
 含有考试范围、专业等，可输出到Excel或MySQL。
 
@@ -7,7 +10,7 @@ scrapy爬取研招网研究生考试专业信息
 
 数据大概这个样子，获得数据之后我们就能方便地进行筛选了。
 
-![图1](https://github.com/Hthing/yzw/blob/master/img/excel.png) 
+![图1](./img/excel.png)
 
 ## 安装：  
 
@@ -20,10 +23,10 @@ python -m yzwspider
 
 或者clone到本地使用
 ```
-git clone https://github.com/Hthing/yzw.git
-cd yzw
-pip install -r requirements.txt
-python -m yzwspider
+git clone https://github.com/EducationOnShore/PostgraduateEnrollmentInformationInquiry
+cd PostgraduateEnrollmentInformationInquiry
+pip3 install -r requirements.txt
+python3 -m yzwspider
 ```
 
 
